@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +23,7 @@ text:boolean=false
 
 tow:string=''
 
-  constructor(){}
+  constructor(private rr:Router){}
 
 open(event:any){
   console.log(event.target.value);

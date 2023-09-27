@@ -1,3 +1,20 @@
-h1{
-    color: red;
+
+
+
+::-webkit-scrollbar {
+  background-color: #0000001A;
+  width: 4px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0000001A;
+}
+
+::-webkit-scrollbar-corner {
+  background: #0000001A;
+}
+
+::-webkit-scrollbar-button:single-button {
+    background-color: #0000001A;
 }
